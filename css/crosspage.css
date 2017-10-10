@@ -1,5 +1,7 @@
+/* fcd400ff  yellow 
+282424 black */
 body {
-	/*background-color: #cccccc;*/
+	background-color: #282424;
 	padding-top: 100px;
 }
 .footer {
@@ -7,22 +9,30 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  background-color: #282424;
 }
-h1, h2, h3, h4, h5, h6, .page-header {
-	background-color: #f5f5f5;
-	color: black;
+h1, h2, h3, h4, h5, h6, .page-header, .panel-title {
+	background-color: #282424;
+	color: #fcd400;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 5px;
 	border-radius: 4px;
 }
-.navbar#a {
-	color: black;
+.navbar .navbar-header .navbar-brand, .navbar .nav li a {
+	color: #fcd400;
 }
 table, .table {
 	border-radius: 4px;
 }
 .table-hover tbody tr:hover td {
-	background-color: #f7e676;
+	background-color: #fcd400;
+	color: black;
+}
+td, th, .media p{
+	background-color: #282424;
+	color: white
+}
+.thumbnail, .about-panel > .panel-heading, .panel {
+	background-color: #282424;
 }
