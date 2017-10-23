@@ -14,6 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6, .page-header, .panel-title {
 	background-color: #282424;
 	color: #fcd400;
+	border-color: #fcd400;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 5px;
@@ -35,4 +36,7 @@ td, th, .media p{
 }
 .thumbnail, .about-panel > .panel-heading, .panel {
 	background-color: #282424;
+}
+.navbar-toggle .icon-bar {
+	color: #fcd400;
 }
