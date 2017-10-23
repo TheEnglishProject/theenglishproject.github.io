@@ -40,3 +40,6 @@ td, th, .media p{
 .navbar-toggle .icon-bar {
 	color: #fcd400;
 }
+.media-body p {
+	color: #fcd400;
+}
