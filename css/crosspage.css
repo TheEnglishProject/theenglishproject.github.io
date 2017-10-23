@@ -27,8 +27,7 @@ table, .table {
 	border-radius: 4px;
 }
 .table-hover tbody tr:hover td {
-	background-color: #fcd400;
-	color: black;
+	color: #fcd400;
 }
 td, th, .media p{
 	background-color: #282424;
