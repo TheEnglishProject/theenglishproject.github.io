@@ -39,6 +39,9 @@ td, th, .media p{
 .navbar-toggle .icon-bar {
 	color: #fcd400;
 }
-.media-body p {
+.media-body p, .glyphicon-chevron-left, .glyphicon-chevron-right {
 	color: #fcd400;
+}
+.carousel-indicators li {
+	background-color: #fcd400;
 }
