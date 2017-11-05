@@ -45,3 +45,15 @@ td, th, .media p{
 .carousel-indicators li {
 	background-color: #fcd400;
 }
+/*
+ * FontIsAwesome icon css
+ */
+.fa {
+	padding: 20px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+}
+.fa-facebook-square {
+   color : #3b5998;
+}
