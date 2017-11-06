@@ -36,8 +36,9 @@ td, th, .media p{
 .thumbnail, .about-panel > .panel-heading, .panel {
 	background-color: #282424;
 }
-.navbar-toggle .icon-bar {
-	color: #fcd400;
+/*this is for the nav expander lines */
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #fcd400;
 }
 .media-body p, .glyphicon-chevron-left, .glyphicon-chevron-right {
 	color: #fcd400;
