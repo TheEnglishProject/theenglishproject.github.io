@@ -6,10 +6,18 @@
 	src: url(../fonts/Westmeath.otf);
 	font-weight: bold;
 }
+html { 
+	height: 100%;
+}
 body {
-	background-color: #282424;
-	padding-top: 100px;
+	height: 100%;
 	font-family: westmeath;
+	padding-top: 100px;
+
+	background-color: #282424;
+	background-image: url("../img/albumcover.png");
+	background-position: center;
+	background-size: cover;
 }
 .footer {
   width: 100%;
@@ -27,15 +35,23 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 5px;
 	border-radius: 4px;
 }
+a, a:visited {
+	color: white;
+}
+a:hover {
+	color: #fcd400;
+}
 .navbar .navbar-header .navbar-brand, .navbar .nav li a {
 	color: #fcd400;
 }
 table, .table {
 	border-radius: 4px;
 }
+/*
 .table-hover tbody tr:hover td {
 	color: white;
 }
+*/
 td, th, .media p{
 	background-color: #282424;
 	color: #fcd400;
@@ -52,6 +68,9 @@ td, th, .media p{
 }
 .carousel-indicators li {
 	background-color: #fcd400;
+}
+.row {
+	margin-bottom: 20px;
 }
 /*
  * FontIsAwesome icon css
