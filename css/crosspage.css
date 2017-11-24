@@ -1,8 +1,15 @@
 /* fcd400ff  yellow 
 282424 black */
+
+@font-face {
+	font-family: westmeath;
+	src: url(../fonts/Westmeath.otf);
+	font-weight: bold;
+}
 body {
 	background-color: #282424;
 	padding-top: 100px;
+	font-family: westmeath;
 }
 .footer {
   width: 100%;
@@ -55,6 +62,7 @@ td, th, .media p{
     width: 40px;
     text-align: center;
 }
-.fa-facebook-square {
+/* make facebook icon blue 
+.navbar ul.nav .fa-facebook-square {
    color : #3b5998;
-}
+} */
