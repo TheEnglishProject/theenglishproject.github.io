@@ -34,11 +34,11 @@ table, .table {
 	border-radius: 4px;
 }
 .table-hover tbody tr:hover td {
-	color: #fcd400;
+	color: white;
 }
 td, th, .media p{
 	background-color: #282424;
-	color: white
+	color: #fcd400;
 }
 .thumbnail, .about-panel > .panel-heading, .panel {
 	background-color: #282424;
