@@ -1,0 +1,31 @@
+{
+  "name": "theenglishproject.github.io",
+  "version": "1.0.0",
+  "description": "website for the enlish project band",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheEnglishProject/theenglishproject.github.io.git"
+  },
+  "keywords": [
+    "english",
+    "project",
+    "funk",
+    "music",
+    "tonisbones"
+  ],
+  "author": "tonisbones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheEnglishProject/theenglishproject.github.io/issues"
+  },
+  "homepage": "https://github.com/TheEnglishProject/theenglishproject.github.io#readme",
+  "dependencies": {
+    "@angular/animations": "^7.2.15",
+    "@angular/cdk": "^7.3.7",
+    "@angular/material": "^7.3.7"
+  }
+}
