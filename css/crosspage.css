@@ -15,9 +15,6 @@ body {
 	padding-top: 100px;
 
 	background-color: #282424;
-	background-image: url("../img/albumcover.png");
-	background-position: center;
-	background-size: cover;
 }
 .footer {
   width: 100%;
